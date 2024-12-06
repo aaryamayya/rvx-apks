@@ -10,4 +10,4 @@
 - 🛑 » Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach patched apps from being updated by Play Store
   
 > ⚙️ » CLI: `j-hc/revanced-cli-5.0.0-all.jar`  
-> ⚙️ » Patches: `ReVanced/patches-5.2.1.rvp`    
+> ⚙️ » Patches: `ReVanced/patches-5.2.2.rvp`    
