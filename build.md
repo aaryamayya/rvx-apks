@@ -1,8 +1,9 @@
 🟢 » Duolingo: `6.10.4`  
-🟢 » Music (arm64-v8a): `7.29.52`  
-🟢 » Music (arm-v7a): `7.29.52`  
+🟢 » Music (arm64-v8a): `7.16.53`  
+🟢 » Music (arm-v7a): `7.16.53`  
 🟢 » Reddit: `2024.17.0`  
 🟢 » TikTok: `36.5.4`  
+🟢 » YouTube: `19.16.39`  
 
 - ▶️ » Install [GmsCore](https://github.com/ReVanced/GmsCore/releases) or [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for non-root YouTube and YT Music APKs  
 - 🛑 » Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach patched apps from being updated by Play Store
