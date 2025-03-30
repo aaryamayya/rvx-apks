@@ -1,18 +1,11 @@
-🟢 » Instagram (arm64-v8a): `371.0.0.36.89`  
-🟢 » Instagram (arm-v7a): `371.0.0.36.89`  
-🟢 » Music (arm64-v8a): `8.10.51`  
-🟢 » Music (arm-v7a): `8.10.51`  
-🟢 » Reddit: `2025.05.1`  
-🟢 » Telegram: `11.8.2`  
-🟢 » YouTube: `19.44.39`  
+🟢 » Music (arm64-v8a): `8.12.53`  
+🟢 » Music (arm-v7a): `8.12.53`  
+🟢 » Reddit: `2025.12.0`  
+🟢 » YouTube: `19.47.53`  
 
 - ▶️ » Install [GmsCore](https://github.com/ReVanced/GmsCore/releases) or [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for non-root YouTube and YT Music APKs  
 - 🛑 » Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach patched apps from being updated by Play Store
   
-> ⚙️ » CLI: `j-hc/revanced-cli-5.0.0-all.jar`  
-> ⚙️ » Patches: `Aunali321/patches-1.6.1.rvp`  
-[🔗 » Changelog](https://github.com/Aunali321/ReVancedExperiments/releases/tag/v1.6.1)
-
 > ⚙️ » CLI: `inotia00/revanced-cli-5.0.1-all.jar`  
-> ⚙️ » Patches: `inotia00/patches-5.5.1.rvp`  
-[🔗 » Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.5.1)  
+> ⚙️ » Patches: `inotia00/patches-5.6.1.rvp`  
+[🔗 » Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.6.1)  
