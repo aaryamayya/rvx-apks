@@ -1,9 +1,9 @@
 🟢 » Music (arm64-v8a): `8.12.53`  
 🟢 » Music (arm-v7a): `8.12.53`  
 🟢 » Reddit: `2025.12.0`  
-🟢 » Soundcloud: `2025.03.25-release`  
 🟢 » Spotify: `9.0.34.220`  
 🟢 » X: `10.84.0-release.0`  
+🟢 » YouTube: `19.47.53`  
 
 - ▶️ » Install [GmsCore](https://github.com/ReVanced/GmsCore/releases) or [MicroG-RE](https://github.com/WSTxda/MicroG-RE/releases) for non-root YouTube and YT Music APKs  
 - 🛑 » Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach patched apps from being updated by Play Store
