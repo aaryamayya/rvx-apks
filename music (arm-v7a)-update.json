@@ -1,5 +1,5 @@
 {
-  "version": "v8.12.53 (patches: 5.6.2)",
+  "version": "v8.12.53 (patches: 3.6.0)",
   "versionCode": 17,
   "zipUrl": "https://github.com/krvstek/rvx-apks/releases/download/17/music-revanced-extended-magisk-v8.12.53-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/krvstek/rvx-apks/update/build.md"
