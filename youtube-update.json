@@ -1,6 +1,6 @@
 {
-  "version": "v20.21.37 (patches dev.9)",
-  "versionCode": 23,
-  "zipUrl": "https://github.com/krvstek/rvx-apks/releases/download/23/youtube-revanced-extended-magisk-v20.21.37-all.zip",
+  "version": "v20.21.37 (patches dev.11)",
+  "versionCode": 24,
+  "zipUrl": "https://github.com/krvstek/rvx-apks/releases/download/24/youtube-revanced-extended-magisk-v20.21.37-all.zip",
   "changelog": "https://raw.githubusercontent.com/krvstek/rvx-apks/update/build.md"
 }
