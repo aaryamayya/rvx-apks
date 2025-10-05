@@ -1,6 +1,6 @@
 {
-  "version": "v8.30.54 (patches 3.13.0)",
-  "versionCode": 27,
-  "zipUrl": "https://github.com/krvstek/rvx-apks/releases/download/27/music-revanced-extended-magisk-v8.30.54-arm-v7a.zip",
+  "version": "v8.30.54 (patches 3.14.0)",
+  "versionCode": 28,
+  "zipUrl": "https://github.com/krvstek/rvx-apks/releases/download/28/music-revanced-extended-magisk-v8.30.54-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/krvstek/rvx-apks/update/build.md"
 }
