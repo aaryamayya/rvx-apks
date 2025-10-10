@@ -1,0 +1,46 @@
+name: Auto-Sync Fork (Keep Lines 12-13)
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight
+  workflow_dispatch:     # Allows manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout your fork
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # Step 2: Add upstream remote
+      - name: Add upstream
+        run: git remote add upstream https://github.com/krvstek/rvx-apks.git
+
+      # Step 3: Fetch upstream changes
+      - name: Fetch upstream
+        run: git fetch upstream
+
+      # Step 4: Merge upstream into fork
+      - name: Merge upstream
+        run: git merge upstream/main -m "Auto-merge upstream"
+
+      # Step 5: Restore protected lines 12 and 13 in config.toml
+      - name: Restore protected lines
+        run: |
+          FILE=config.toml
+          LINE12='included-patches = "\'Change version code\' \'Custom\'MaterialYou\' \'Theme\'"'
+          LINE13='patcher-args = "-e \'Overlay buttons\' -OwiderButtonsSpace=true -e \'Snack bar components\' -OdarkThemeBackgroundColor=@android:color/black -OlightThemeBackgroundColor=@android:color/white -OstrokeColor=?attr/ytChipBackground -e \'Visual preferences icons for YouTube\' -OsettingsMenuIcon=revanced"'
+
+          # Replace lines 12 and 13 while keeping the rest from upstream
+          awk 'NR==12{print "'"$LINE12"'"; next} NR==13{print "'"$LINE13"'"; next} {print}' "$FILE" > tmpfile
+          mv tmpfile "$FILE"
+
+          git add "$FILE"
+          git commit -m "Restore lines 12-13 in config.toml" || echo "No changes to commit"
+
+      # Step 6: Push changes back to your fork
+      - name: Push changes
+        run: git push origin main --force
